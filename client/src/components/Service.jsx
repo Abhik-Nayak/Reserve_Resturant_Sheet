@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import icon from "../assets/icon.png";
 import home from "../assets/user.jpg";
-const Dashboard1 = () => {
+const Service = () => {
     return (
         <>
-            <div className='sm:flex justify-between items-center mt-20 ml-20'>
+            {/* <div className='sm:flex justify-between items-center mt-20 ml-20'>
                 <div className=' md:w-3/5 w-4/5 mt-10 animate__animated animate__jackInTheBox'>
                     <h1 className='text-4xl'>Welcome to
                         <span class="text-blue-500 font-bold"> Tailwind CSS </span>Website</h1>
@@ -22,9 +22,12 @@ const Dashboard1 = () => {
                 <div className='md:w-2/5 w-3/5'>
                     <img src={home} />
                 </div>
-            </div>
+            </div> */}
+                    <section className=" mt-10 min-h-screen flex items-center justify-center">
+                        
+                    </section>
         </>
     )
 }
 
-export default Dashboard1
+export default Service
