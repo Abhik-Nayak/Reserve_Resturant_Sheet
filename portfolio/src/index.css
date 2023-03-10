@@ -6,7 +6,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     .card:nth-child(7n + 1) {
         grid-column: auto/span 2;
         grid-row: auto/span 2;
@@ -18,6 +18,18 @@
 }
  
 .prompt::-webkit-scrollbar-thumb {
-  background-color: #666e75;
+  background-color: #e34b19;
   border-radius: 5px;
+} */
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
 }
