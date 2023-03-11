@@ -4,6 +4,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
     extend: {
+      flex: {
+        '2': '2 2 0%'
+      },
       screens: {
         xs: '300px',
       },
