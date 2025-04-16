@@ -1,6 +1,4 @@
-Here's a clean and professional `README.md` file you can use for your GitHub repository:
 
----
 
 ```markdown
 # 🪑 Reserve Restaurant Sheet App
