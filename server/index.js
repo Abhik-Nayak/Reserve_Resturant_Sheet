@@ -18,7 +18,7 @@ app.use(
     credentials: true, // required if you're using cookies or auth headers
   })
 );
-app.use(cors());
+
 app.use(express.json());
 dbConnection();
 
