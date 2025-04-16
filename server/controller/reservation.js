@@ -24,10 +24,10 @@ const send_reservation = async (req, res, next) => {
 
   try {
     // 🔍 Check if email already exists
-    const existingReservation = await Reservation.findOne({ email });
-    if (existingReservation) {
-      return next(new ErrorHandler("A reservation with this email already exists.", 409)); // 409 = Conflict
-    }
+    // const existingReservation = await Reservation.findOne({ email });
+    // if (existingReservation) {
+    //   return next(new ErrorHandler("A reservation with this email already exists.", 409)); // 409 = Conflict
+    // }
 
     // ✅ Create reservation
     await Reservation.create({ firstName, lastName, email, date, time, phone });
