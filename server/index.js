@@ -14,11 +14,11 @@ const PORT = process.env.PORT || 8081; // fallback port if not set
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // or whatever your frontend URL is
+    origin: "https://reserve-resturant-sheet.vercel.app/", // or whatever your frontend URL is
     credentials: true, // required if you're using cookies or auth headers
   })
 );
-
+app.use(cors());
 app.use(express.json());
 dbConnection();
 
